@@ -8,4 +8,4 @@ This project relies heavily on a conda environment, with specific versions of pa
 6. replace all instances of "scipy.misc" with "scipy.special" in source code
 7. mkdir data; mv CAC40.csv data/CAC40.csv
 8. cd diss; mkdir data log evaluation_log
-9. python GPU-DDPG.py --data CAC40 --proportion_assets 1.0 0.5 --num_repeats 4 --esg_epsilon 0.0 0.001 0.01 0.05 --gpu False
+9. python DRL-PM.py --data DAX --proportion_assets 1.0 0.5 --num_repeats 4 --gpu false
